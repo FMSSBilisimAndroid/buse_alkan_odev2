@@ -3,7 +3,7 @@
 
 ## Outputs
 <p>
-  <img height="400" width="210" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev2/master/screens/uiDesign.giftoken=GHSAT0AAAAAABYLI7OR5W4IQEEARNMFPJZGYYTHWUA" alt="SS1"/>
+  <img height="400" width="210" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev2/master/screens/uiDesign.gif?token=GHSAT0AAAAAABYLI7OQAKXREVMOPSUCJBKIYYTHXMQ" alt="SS1"/>
 </p>
 
 
