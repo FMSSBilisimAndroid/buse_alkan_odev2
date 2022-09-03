@@ -7,7 +7,7 @@
 </p>
 
 ## Eager ve Lazy Filters
-<h4>Eager Filters</h4>
+<b>Eager Filters<b>
 <p align="center">Eager filter ihtiyaç anından önce oluşturulurak gerektiğinde gerçekleşir.</p>
 
 <li>Eager filterları anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
@@ -19,7 +19,7 @@ println("eager: " + eager)
 ```
 ⇒ eager: [viola, violin]
 
-<h4>Lazy Filters</h4>
+<b>Lazy Filters</b>
 <p align="center">Lazy filter, ihtiyaç duyulan ana kadar alınmaması ve bekletilmesi amacıyla kullanılır.</p>
 
 <li>Lazy filter daha az hesaplama ile sonuçlanır ve hesaplamada birden fazla adım varsa (örneğin filter, map, reduce), daha az geçici veri oluşturulur.</li>
