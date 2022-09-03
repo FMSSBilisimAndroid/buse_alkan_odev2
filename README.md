@@ -12,6 +12,12 @@
 
 <li>Eager filterları anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
 
+  ```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+  
 ```
 val instruments = listOf("viola", "cello", "violin")
 val eager = instruments.filter { it [0] == 'v' }
