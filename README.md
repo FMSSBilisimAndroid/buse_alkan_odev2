@@ -12,14 +12,15 @@
 
 <li>Eager filterları anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
 
-<p> 
+````
 ```
 val instruments = listOf("viola", "cello", "violin")
 val eager = instruments.filter { it [0] == 'v' }
 println("eager: " + eager)
 ```
+````
 ⇒ eager: [viola, violin]
-  </p>
+
 
 <b>Lazy Filters</b>
 <p align="center">Lazy filter, ihtiyaç duyulan ana kadar alınmaması ve bekletilmesi amacıyla kullanılır.</p>
