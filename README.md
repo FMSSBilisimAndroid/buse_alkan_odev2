@@ -1,33 +1,11 @@
 ## UiDesignApp
-<p align="center"><img height="300" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/logo.jpg"/></p>
-<p align="center">This project is about the COVID-19 statistical data of the countries.</p>
+<p align="center">Mobile Ui Design</p>
 
 ## Outputs
 <p>
-  <img height="400" width="210" src="https://github.com/busealkan/buse_alkan_odev2/blob/master/screens/uiDesign.mp4" alt="SS1"/>
-
-
+  <img height="400" width="210" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev2/master/screens/uiDesign.giftoken=GHSAT0AAAAAABYLI7OR5W4IQEEARNMFPJZGYYTHWUA" alt="SS1"/>
 </p>
 
-## Architecture
-<p>The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional flow of data, separation of concern, testability, and a lot more.</p>
-<p>
-  <img src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/architecture.png" alt="Architecture" style="max-width: 100%;">
-</p>
-
-
-## Clean Simple Architecture
-<p><img align="left" width="244px"; src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/mvvm.png"/></p>
-<br/><br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-
-## Libraries and Tools 
-<li>Dagger Hilt</li>
-<li>Coroutines</li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel">ViewModel</a></li> 
-<li><a href="https://developer.android.com/topic/libraries/architecture/livedata">LiveData</a></li>
-<li><a href="https://developer.android.com/topic/libraries/data-binding">Data Binding</a></li>
-<li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
-<li><a href="https://square.github.io/okhttp/">OkHttp</a></li>
 
 
 ## License
