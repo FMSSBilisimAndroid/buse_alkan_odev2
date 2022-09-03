@@ -8,22 +8,22 @@
 
 ## Eager ve Lazy Filters
 <b>Eager Filters<b>
-<p align="center">Eager filter ihtiyaç anından önce oluşturulurak gerektiğinde gerçekleşir.</p>
+<p>Eager filter ihtiyaç anından önce oluşturulurak gerektiğinde gerçekleşir.</p>
 
 <li>Eager filterları anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
 
-````
+
 ```
 val instruments = listOf("viola", "cello", "violin")
 val eager = instruments.filter { it [0] == 'v' }
 println("eager: " + eager)
 ```
-````
+
 ⇒ eager: [viola, violin]
 
 
 <b>Lazy Filters</b>
-<p align="center">Lazy filter, ihtiyaç duyulan ana kadar alınmaması ve bekletilmesi amacıyla kullanılır.</p>
+<p>Lazy filter, ihtiyaç duyulan ana kadar alınmaması ve bekletilmesi amacıyla kullanılır.</p>
 
 <li>Lazy filter daha az hesaplama ile sonuçlanır ve hesaplamada birden fazla adım varsa (örneğin filter, map, reduce), daha az geçici veri oluşturulur.</li>
 
