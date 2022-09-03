@@ -1,4 +1,4 @@
-package com.dag.odev2fmss
+package com.busealkan.buse_alkan_odev2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
