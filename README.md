@@ -10,7 +10,7 @@
 ## Eager Filters
 <p>Eager filter ihtiyaç anından önce oluşturulurak gerektiğinde gerçekleşir.</p>
 
-<li>Eager filterları anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
+<li>Anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
 
 
 ```
@@ -23,9 +23,9 @@ println("eager: " + eager)
 
 
 ## Lazy Filters
-<p>Lazy filter, ihtiyaç duyulan ana kadar alınmaması ve bekletilmesi amacıyla kullanılır.</p>
+<p>Lazy filter, ihtiyaç duyulan ana kadar gerçekleşmez sadece çalışma zamanında gerekirse gerçekleşir</p>
 
-<li>Lazy filter daha az hesaplama ile sonuçlanır ve hesaplamada birden fazla adım varsa (örneğin filter, map, reduce), daha az geçici veri oluşturulur.</li>
+<li>Daha az hesaplama ile sonuçlanır ve hesaplamada birden fazla adım varsa (örneğin filter, map, reduce), daha az geçici veri oluşturulur.</li>
 
 ```
 val instruments = listOf("viola", "cello", "violin")
