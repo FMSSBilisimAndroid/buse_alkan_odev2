@@ -1,13 +1,13 @@
-## UiDesignApp
+# UiDesignApp
 <p align="center">Mobile Ui Design</p>
 
-## Outputs
+# Outputs
 <p>
   <img height="700" width="410" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev2/master/screens/uiDesign.gif?token=GHSAT0AAAAAABYLI7OQAKXREVMOPSUCJBKIYYTHXMQ" alt="SS1"/>
 </p>
 
-## Eager ve Lazy Filters
-# Eager Filters
+# Eager ve Lazy Filters
+## Eager Filters
 <p>Eager filter ihtiyaç anından önce oluşturulurak gerektiğinde gerçekleşir.</p>
 
 <li>Eager filterları anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
@@ -22,7 +22,7 @@ println("eager: " + eager)
 ⇒ eager: [viola, violin]
 
 
-# Lazy Filters
+## Lazy Filters
 <p>Lazy filter, ihtiyaç duyulan ana kadar alınmaması ve bekletilmesi amacıyla kullanılır.</p>
 
 <li>Lazy filter daha az hesaplama ile sonuçlanır ve hesaplamada birden fazla adım varsa (örneğin filter, map, reduce), daha az geçici veri oluşturulur.</li>
@@ -35,7 +35,7 @@ println("filtered: " + filtered.toList())
 ⇒ filtered: [viola, violin]
 
 
-## License
+# License
 Copyright 2022 Buse ALKAN..
 
 Licensed under the Apache License, Version 2.0 (the "License");
