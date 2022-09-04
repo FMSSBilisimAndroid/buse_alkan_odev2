@@ -2,7 +2,7 @@
 <p align="center">Mobile Ui Design</p>
 
 # Outputs
-<img height="700" width="410" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev2/master/screens/uiDesign.gif?token=GHSAT0AAAAAABYLI7OQ7Q7276H3JOQTCNVGYYTR6VQ" alt="SS1"/>
+<img height="700" width="410" src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev2/master/screens/uiDesign.gif?token=GHSAT0AAAAAABYL4V2HMCKL5LNWML427GMCYYUKCNA" alt="SS1"/>
 
 
 # Eager ve Lazy Filters
